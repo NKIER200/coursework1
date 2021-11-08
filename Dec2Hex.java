@@ -29,7 +29,7 @@ try
 
 catch(NumberFormatException ex)
 
-{System.out.println("This is not a valid input. Enter an Integer")
+{System.out.println("This is not a valid input. Enter an Integer");
 //this will return the above message to the user
 return;
 }
