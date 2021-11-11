@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class AppTest3 {
     @Test
     public void InputValida3on() {
-
+//This tests that when a word or letters is input, that it informs the user it is invalid and to use an Integer
         assertEquals("This is not a valid input. Enter an Integer", Dec2Hex.hexi(new String[] {"zebra"}));
 
     }

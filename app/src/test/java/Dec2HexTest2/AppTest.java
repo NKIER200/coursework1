@@ -7,37 +7,37 @@ package Dec2HexTest2;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+//This file contains 5 unit tests.
 public class AppTest {
     @Test
     public void InputValidation() {
-
+//This tests with the number 12 to make sure C is the output
         assertEquals("Hexadecimal representation is: C", Dec2Hex.hexi(new String[] {"12"}));
 
     }
 @Test
     public void InputValidation2() {
-
+//This tests with the number 10 to make sure A is the output
         assertEquals("Hexadecimal representation is: A", Dec2Hex.hexi(new String[] {"10"}));
 
     }
 @Test
     public void InputValidation3() {
-
+//This tests with the number 15 to make sure F is the output
         assertEquals("Hexadecimal representation is: F", Dec2Hex.hexi(new String[] {"15"}));
 
     }
 
 @Test
     public void InputValidation4() {
-
+//This tests with no input to make sure that the correct message is displayed, and that the code still runs
         assertEquals("nothing was input, try again with an input", Dec2Hex.hexi(new String[0]));
 
     }
 
 @Test
     public void InputValidation5() {
-
+//This tests with the word Zebra to ensure that the input only actually attempts conversion on Integers
         assertEquals("This is not a valid input. Enter an Integer", Dec2Hex.hexi(new String[] {"Zebra"}));
 
     }
