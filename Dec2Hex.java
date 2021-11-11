@@ -9,7 +9,7 @@ class Dec2Hex
     public static void main(String args[])
     {
 //task 5, check for no input
-//Video test
+//Video test 2
 
 
 if(args.length ==0) {
